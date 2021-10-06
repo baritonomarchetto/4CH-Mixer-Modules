@@ -1,2 +1,2 @@
 # 4CH-Mixer-Module
-a 4CH mixer module for modular synthesizers
+4CH mixer module with built-in fixed tone generator for modular synthesizers
