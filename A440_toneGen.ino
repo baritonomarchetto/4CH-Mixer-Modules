@@ -3,7 +3,7 @@
 const byte tonePin = 4;
 
 void setup() {
-tone(tonePin, 440);//A
+tone(tonePin, 436);//A. With "440" pitch is wrong for me.
 }
 
 void loop() {
