@@ -1,7 +1,7 @@
 /* Reference Tone generator
  * Part of 4-Channel mixer project (synthbrigade.altervista.org)
  * 
- * by Barito
+ * by Barito (last update jan 2025)
  */
 
 const byte corrPin = 3;
