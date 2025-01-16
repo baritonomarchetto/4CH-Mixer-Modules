@@ -18,5 +18,5 @@ void setup() {
 
 void loop() {
   pitchCorr = analogRead(corrPin) >> 7; // 0/7
-  tone(tonePin, baseFreq + pitchCorr*2 -7);
+  tone(tonePin, baseFreq + pitchCorr*2 -7); //does "tone" work with odd frequencies? Maybe not.
 }
