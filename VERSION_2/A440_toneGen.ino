@@ -18,8 +18,8 @@ void setup() {
 }
 
 void loop() {
-  if (analogRead(refPin) ! = pitchRaw){
-    pitchRaw = analogRead(refPin); // 0/1023
+  if (analogRead(corrPin) != pitchRaw){
+    pitchRaw = analogRead(corrPin); // 0/1023
     pitchCorr = pitchRaw >> 5; // 0/31
     pitchCorr = pitchCorr - pitchCorr/2; // -15/+15
     tone(tonePin, baseFreq + pitchCorr);
