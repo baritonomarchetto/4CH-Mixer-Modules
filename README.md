@@ -1,4 +1,9 @@
 # 4CH-Audio-or-CV-Mixer-Modules
-Four channels audio mixer module with built-in reference tone generator and four channels CV mixer module with gain compensation. For modular synthesizers.
+Two different mixers for two different tasks. For modular synthesizers.
+
+1 - Four channels audio mixer module with built-in reference tone generator
+2 - Four channels CV mixer module with gain compensation. 
+
+
 
 
