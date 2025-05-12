@@ -1,3 +1,5 @@
+This repository hosts an old mixer version for reference only. Use files in "Version 2" folder.
+
 # 4CH-Audio-or-CV-Mixer-Modules
 Two different mixers for two different tasks. For modular synthesizers.
 
