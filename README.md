@@ -58,27 +58,43 @@ Just to cite an example, using series current limiting resistors for output prot
 This project follows a [previous 4 channels mixer module](https://www.instructables.com/4-Channels-Mixer-Module-With-A440-Reference-Genera/). The time had come to focus it more to the final application (audio mix) and remove some unecessary feature.
 
 ## Improvements
-First: _ _ no variable gain _ _ . Eurorack oscillators signal is HOT and needs attenuation before hitting external hardware. Going higher than unity gain in the final stage makes no sense, so we can save some good amount of panel space by omitting a dedicated gain potentiometer.
-Second: no inverted output. To human hears, direct and inverted audio signals are perceived the same. The most basic audio mixer could use a single op-amp in inverting configuration and your ear would not notice.
-Built-In Reference Tone
-A feature I always use with my analog oscillators, the built-in digital reference tone for tuning is something I could not live without.
+First: **no variable gain**. Eurorack oscillators signal is HOT and needs attenuation before hitting external hardware. Going higher than unity gain in the final stage makes no sense, so we can save some good amount of panel space by omitting a dedicated gain potentiometer.
+
+Second: **no inverted output**. To human hears, direct and inverted audio signals are perceived the same. The most basic audio mixer could use a single op-amp in inverting configuration and your ear would not notice.
+
+## Built-In Reference Tone
+A feature I always use with my [analog oscillators](https://www.instructables.com/CEM3340-Voltage-Controlled-Analog-Oscillator-Modul/), **the built-in digital reference tone** for tuning is something I could not live without.
+
 This feature was already present in the previous mixer version, but it is here upgraded by the addiction of a direct control over the pitch and an RC filter with a roll-off frequency of just under 6kHz.
+
 The sketch I have written for the reference tone is also brand new, with a direct square wave generation instead of the adoption of the basic "tune" Arduino function. This made the wave's tuning control way more effective, without the audio glitches the function was generating when moving between semitones.
+
 Reference tone's pitch and volume can be set directly from the front panel through two dedicated potentiometers. These are two trimmers firmly soldered on the PCB, but made acessible through two holes on the front panel.
-Circuit
-This new four (monaural) channel audio mixer module's circuit is based on a very simple but effective design by Doepfer.
+
+## Circuit
+This new four (monaural) channel audio mixer module's circuit is based on a very simple but effective [design by Doepfer](http://www.doepfer.de/DIY/a100_diy.htm).
+
 The circuit is built around a single dual op-amp in single package. I used common TL072, but one could use any other, pin-compatile op-amp of choice.
+
 A human ear characteristic is it not being sensible to audio DC bias. Anyway, when two (or more) waves are mixed, the resultant wave is actually affected by relative bias. This is why every input of this mixer has an AC coupling capacitor following its voltage divider.
+
 If the audio source is well known to be already AC coupled, one could omit these and replace them with jumpers.
->>HERE<< is a Falstad's circuit simulation of this mixer.
-Module Design
+
+## Module Design
 The mixer circuit is made of only few components, and I dedicated due efforts to lay the circuit down onto a single PCB (plus the front panel) instead of two stacked PCBs thus keeping costs at minimum level.
+
 All components values are silkscreened on the PCB to make assembly easier (I hate reference sheets).
+
 There are no exhotic components, nor special care is in the need in components selection with the exception of potentiometers.
+
 In the first iteration of the mixer I used linear pots because cheaper and easier to find than logaritmic. Human perception of volume follows a logaritmic law, instead, so in this more "focused to audio" mixer module I had to adopt  logaritmic potentiometers by default. It is best, but not mandatory, to use logaritmic ("A", or "Audio"), mono, potentiometers instead of linear ("B").
+
 The silkscreen shows 50K ohm potentiometers for input level, but you can also use 100K ohm pots in case you have those laying around.
+
 The module calls for +12V, -12V and +5V. The 5V line is in the need for the digital tone generator, but you can omit it if you don't need the reference tone.
+
 It's 3U tall, 8HP wide and made of only two boards instead of three (front panel and main board).
+
 Not bad, if you ask me!
 
 
