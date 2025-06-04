@@ -42,7 +42,7 @@ To our ears, a change in amplitude makes it quieter, but doesn't change the timb
 
 Another aspect strictly related to audio, underlies in the human auditory system. This responds logarithmically to changes in sound intensity, this means that potentiometers to be used in audio mixers should be logaritmic (often indicated as "A") for a "correct" behaviour.
 
-## CV Mixers
+## CV mixers
 
 Control voltage mixers are intended to mix modulation sources signals. These are not audible sounds, but rather signals to control module's parameters such as pitch, filter cutoff, amplitude, etc.
 
