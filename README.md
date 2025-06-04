@@ -58,7 +58,7 @@ Just to cite an example, using series current limiting resistors for output prot
 This project follows a [previous 4 channels mixer module](https://www.instructables.com/4-Channels-Mixer-Module-With-A440-Reference-Genera/). The time had come to focus it more to the final application (audio mix) and remove some unecessary feature.
 
 ## Improvements
-First: __ no variable gain __. Eurorack oscillators signal is HOT and needs attenuation before hitting external hardware. Going higher than unity gain in the final stage makes no sense, so we can save some good amount of panel space by omitting a dedicated gain potentiometer.
+First: _ _ no variable gain _ _ . Eurorack oscillators signal is HOT and needs attenuation before hitting external hardware. Going higher than unity gain in the final stage makes no sense, so we can save some good amount of panel space by omitting a dedicated gain potentiometer.
 Second: no inverted output. To human hears, direct and inverted audio signals are perceived the same. The most basic audio mixer could use a single op-amp in inverting configuration and your ear would not notice.
 Built-In Reference Tone
 A feature I always use with my analog oscillators, the built-in digital reference tone for tuning is something I could not live without.
