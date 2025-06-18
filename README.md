@@ -155,6 +155,7 @@ What about nano-coated stencils for your SMD projects? You can take advantage of
 By registering at JLCPCB site via [THIS LINK](https://jlcpcb.com/IAT) (affiliated link) you will receive a series of coupons for your orders. Registering costs nothing, so it could be the right opportunity to give their service a due try ;)
 
 My projects are free and for everybody. You are anyway welcome if you want to donate some change to help me cover components costs and push the development of new projects (I have a new one on a nice sub-oscillator module that could be interesting for some of you... :) )
+
 [>>HERE<<](https://paypal.me/GuidolinMarco?country.x=IT&locale.x=it_IT) is my paypal donation page, just in case ;)
 
 
