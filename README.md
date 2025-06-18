@@ -1,4 +1,5 @@
-This repository hosts my new eurorack mixer modules and an old mixer module, for reference only. New mixers files are stored in "VERSION_2" folder.
+This repository hosts my new eurorack mixer modules. It also host an old mixer module, but for reference only. 
+New mixers files are stored in "VERSION_2" folder.
 
 # 4CH-Audio/CV-Mixer-Modules
 Two different mixers for two different tasks. For modular synthesizers.
