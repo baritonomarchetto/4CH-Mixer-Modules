@@ -145,8 +145,8 @@ Upload the sketch:
 **Note:** Burn the bootloader each time you upload a new sketch.
 
 # Acknowledgments
-Many thanks to the nice girls and guys at [JLCPCB](https://jlcpcb.com/IAT) for sponsoring the manufacturing of PCBs for these mixer modules. 
-Without their contribution this project would have never reached the current level of development.
+Many thanks to the nice girls and guys at [JLCPCB](https://jlcpcb.com/IAT) for sponsoring mixer modules PCBs manufacturing.
+Without their contribution this project (and most of my other projects) would have never reached the current level of development.
 
 JLCPCB is a high-tech manufacturer specialized in the production of high-reliable and cost-effective PCBs. They offer a flexible PCB assembly service with a huge library of more than 600.000 components in stock.
 3D printing is part of their portfolio of services so one could create a full finished product, all in one place!
