@@ -144,6 +144,12 @@ Upload the sketch:
   
 **Note:** Burn the bootloader each time you upload a new sketch.
 
+# External Links
+https://www.instructables.com/4-Channels-AudioCV-Mixers-for-Eurorack-Synthesizer/
+
+https://synthbrigade.altervista.org/modularita-mixers/
+
+
 # Acknowledgments
 Many thanks to the nice girls and guys at [JLCPCB](https://jlcpcb.com/IAT) for sponsoring mixer modules PCBs manufacturing.
 Without their contribution this project (and most of my other projects) would have never reached the current level of development.
