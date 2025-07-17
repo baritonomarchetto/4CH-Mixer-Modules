@@ -8,6 +8,8 @@ Two different mixers for two different tasks. For modular synthesizers.
 
 2 - Four channels CV mixer module with gain compensation.
 
+![IMG_20250605_125735_risultato](https://github.com/user-attachments/assets/4ea6f8fe-21e1-4f0d-8c9e-be5c377e9424)
+
 # Intro
 This follows a previous mixer project I rolled out some time ago for my DIY eurorack synthesizer. 
 After years of use and some time spent on the theory, I ended up seeing more clearly the limits of that project and matured some awareness on mixers.
